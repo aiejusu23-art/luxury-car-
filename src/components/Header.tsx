@@ -11,12 +11,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="flex items-center">
-              <span className="text-2xl font-bold gold-text">LUXURY CAR</span>
-              <span className="text-2xl font-light text-foreground ml-2">GABON</span>
-            </div>
-          </Link>
+          <a href="#" className="-m-1.5 p-1.5">
+            <span className="sr-only">Luxury Car Gabon Showcase</span>
+            <img
+              className="h-8 w-auto"
+              src="/src/assets/logo.png"
+              alt="Luxury Car Gabon Showcase Logo"
+            />
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
