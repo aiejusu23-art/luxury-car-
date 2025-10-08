@@ -18,6 +18,7 @@ const Header = () => {
               src="/src/assets/logo.png"
               alt="Luxury Car Gabon Showcase Logo"
             />
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
