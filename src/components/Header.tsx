@@ -1,3 +1,4 @@
+import logo from "@/assets/logo.png";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, Phone } from "lucide-react";
@@ -15,7 +16,7 @@ const Header = () => {
             <span className="sr-only">Luxury Car Gabon Showcase</span>
             <img
               className="h-8 w-auto"
-              src="/src/assets/logo.png"
+              src={logo}
               alt="Luxury Car Gabon Showcase Logo"
             />
           </a>
